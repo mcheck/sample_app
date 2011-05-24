@@ -35,6 +35,7 @@ GEM
     diff-lcs (1.1.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
+    haml (3.1.1)
     hoptoad_notifier (2.4.5)
       activesupport
       builder
@@ -94,6 +95,7 @@ PLATFORMS
 
 DEPENDENCIES
   annotate-models (= 1.0.4)
+  haml
   hoptoad_notifier
   rails (= 3.0.1)
   rspec (= 2.0.1)
