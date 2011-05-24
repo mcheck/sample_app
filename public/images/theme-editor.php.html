@@ -1,0 +1,276 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" lang="en-US"><head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Edit Themes ‹ Michael Check  — WordPress</title>
+<script type="text/javascript">
+//<![CDATA[
+addLoadEvent = function(func){if(typeof jQuery!="undefined")jQuery(document).ready(func);else if(typeof wpOnload!='function'){wpOnload=func;}else{var oldonload=wpOnload;wpOnload=function(){oldonload();func();}}};
+var userSettings = {
+		'url': '/',
+		'uid': '1',
+		'time':'1295936034'
+	},
+	ajaxurl = 'http://www.sologroup.com/mcheck/wp-admin/admin-ajax.php',
+	pagenow = 'theme-editor',
+	typenow = '',
+	adminpage = 'theme-editor-php',
+	thousandsSeparator = ',',
+	decimalPoint = '.',
+	isRtl = 0;
+//]]>
+</script>
+<link rel="stylesheet" href="theme-editor.php_files/load-styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="colapse-admin-css-css" href="theme-editor.php_files/collapse-style.css" type="text/css" media="all">
+<link rel="stylesheet" id="akismet.css-css" href="theme-editor.php_files/akismet.css" type="text/css" media="all">
+<link rel="stylesheet" id="colors-css" href="theme-editor.php_files/colors-classic.css" type="text/css" media="all">
+<!--[if lte IE 7]>
+<link rel='stylesheet' id='ie-css'  href='http://www.sologroup.com/mcheck/wp-admin/css/ie.css?ver=20100610' type='text/css' media='all' />
+<![endif]-->
+<script type="text/javascript" src="theme-editor.php_files/load-scripts_002.js"></script>
+<script type="text/javascript" src="theme-editor.php_files/jquery.js"></script>
+<script type="text/javascript" src="theme-editor.php_files/jquery_002.js"></script>
+<script type="text/javascript" src="theme-editor.php_files/akismet.js"></script>
+		<style>
+		h2 { margin-bottom: 20px; }
+		.title { margin: 0px !important; background: #D4E9FA; padding: 10px; font-family: Georgia, serif; font-weight: normal !important; letter-spacing: 1px; font-size: 18px; }
+		.container { background: #EAF3FA; padding: 10px; }
+		.maintable { font-family:"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif; background: #EAF3FA; margin-bottom: 20px; padding: 10px 0px; }
+		.mainrow { padding-bottom: 10px !important; border-bottom: 1px solid #D4E9FA !important; float: left; margin: 0px 10px 10px 10px !important; }
+		.titledesc { font-size: 14px; font-weight:bold; width: 220px !important; margin-right: 20px !important; }
+		.forminp { width: 700px !important; valign: middle !important; }
+		.forminp input, .forminp select, .forminp textarea { margin-bottom: 9px !important; background: #fff; border: 1px solid #D4E9FA; width: 500px; padding: 4px; font-family:"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif; font-size: 12px; }
+		.forminp span { font-size: 11px !important; font-weight: normal !important; ine-height: 14px !important; }
+		.info { background: #FFFFCC; border: 1px dotted #D8D2A9; padding: 10px; color: #333; }
+		.forminp .checkbox { width:20px }
+		.info a { color: #333; text-decoration: none; border-bottom: 1px dotted #333 }
+		.info a:hover { color: #666; border-bottom: 1px dotted #666; }
+		.warning { background: #FFEBE8; border: 1px dotted #CC0000; padding: 10px; color: #333; font-weight: bold; }
+		</style>
+	</head><body class="wp-admin js  theme-editor-php">
+<script type="text/javascript">
+//<![CDATA[
+(function(){
+var c = document.body.className;
+c = c.replace(/no-js/, 'js');
+document.body.className = c;
+})();
+//]]>
+</script>
+
+<div id="wpwrap">
+<div id="wpcontent">
+<div id="wphead">
+
+<img id="header-logo" src="theme-editor.php_files/blank.gif" alt="" height="32" width="32">
+<h1 id="site-heading">
+	<a href="http://www.sologroup.com/mcheck/" title="Visit Site">
+		<span id="site-title">Michael Check</span>
+	</a>
+</h1>
+
+
+<div id="wphead-info">
+<div id="user_info">
+<p>Howdy, <a href="http://www.sologroup.com/mcheck/wp-admin/profile.php" title="Edit your profile">mcheck</a> | <a href="http://www.sologroup.com/mcheck/wp-login.php?action=logout&amp;_wpnonce=163c96fd0a" title="Log Out">Log Out</a></p>
+</div>
+
+<div id="favorite-actions"><div id="favorite-first"><a href="http://www.sologroup.com/mcheck/wp-admin/post-new.php">New Post</a></div><div id="favorite-toggle"><br></div><div style="width: 126px;" id="favorite-inside"><div class="favorite-action"><a href="http://www.sologroup.com/mcheck/wp-admin/edit.php?post_status=draft">Drafts</a></div>
+<div class="favorite-action"><a href="http://www.sologroup.com/mcheck/wp-admin/post-new.php?post_type=page">New Page</a></div>
+<div class="favorite-action"><a href="http://www.sologroup.com/mcheck/wp-admin/media-new.php">Upload</a></div>
+<div class="favorite-action"><a href="http://www.sologroup.com/mcheck/wp-admin/edit-comments.php">Comments</a></div>
+</div></div>
+</div>
+</div>
+
+<div id="wpbody">
+
+<ul id="adminmenu">
+
+
+	<li class="wp-first-item wp-has-submenu menu-top menu-top-first menu-icon-site menu-top-first menu-top-last wp-menu-open" id="menu-site">
+	<div class="wp-menu-image"><a href="http://www.sologroup.com/mcheck/wp-admin/ms-admin.php"><br></a></div><div class="wp-menu-toggle"><br></div><a href="http://www.sologroup.com/mcheck/wp-admin/ms-admin.php" class="wp-first-item wp-has-submenu menu-top menu-top-first menu-icon-site menu-top-first menu-top-last" tabindex="1">Super Admin</a>
+	<div class="wp-submenu"><div class="wp-submenu-head">Super Admin</div><ul><li class="wp-first-item"><a href="http://www.sologroup.com/mcheck/wp-admin/ms-admin.php" class="wp-first-item" tabindex="1">Admin</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/ms-sites.php" tabindex="1">Sites</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/ms-users.php" tabindex="1">Users</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/ms-themes.php" tabindex="1">Themes</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/ms-options.php" tabindex="1">Options</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/ms-upgrade-network.php" tabindex="1">Update</a></li></ul></div></li>
+	<li class="wp-menu-separator"><a class="separator" href="http://www.sologroup.com/mcheck/wp-admin/theme-editor.php?unfoldmenu=1"><br></a></li>
+	<li class="wp-has-submenu menu-top menu-icon-dashboard menu-top-first menu-top-last" id="menu-dashboard">
+	<div class="wp-menu-image"><a href="http://www.sologroup.com/mcheck/wp-admin/index.php"><br></a></div><div class="wp-menu-toggle"><br></div><a href="http://www.sologroup.com/mcheck/wp-admin/index.php" class="wp-has-submenu menu-top menu-icon-dashboard menu-top-first menu-top-last" tabindex="1">Dashboard</a>
+	<div class="wp-submenu"><div class="wp-submenu-head">Dashboard</div><ul><li class="wp-first-item"><a href="http://www.sologroup.com/mcheck/wp-admin/index.php" class="wp-first-item" tabindex="1">Dashboard</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/my-sites.php" tabindex="1">My Sites</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/update-core.php" tabindex="1">Updates <span class="update-plugins count-0" title=""><span class="update-count">0</span></span></a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/index.php?page=akismet-stats-display" tabindex="1">Akismet Stats</a></li></ul></div></li>
+	<li class="wp-menu-separator"><a class="separator" href="http://www.sologroup.com/mcheck/wp-admin/theme-editor.php?unfoldmenu=1"><br></a></li>
+	<li class="wp-has-submenu open-if-no-js menu-top menu-icon-post menu-top-first wp-menu-open" id="menu-posts">
+	<div class="wp-menu-image"><a href="http://www.sologroup.com/mcheck/wp-admin/edit.php"><br></a></div><div class="wp-menu-toggle"><br></div><a href="http://www.sologroup.com/mcheck/wp-admin/edit.php" class="wp-has-submenu open-if-no-js menu-top menu-icon-post menu-top-first" tabindex="1">Posts</a>
+	<div class="wp-submenu"><div class="wp-submenu-head">Posts</div><ul><li class="wp-first-item"><a href="http://www.sologroup.com/mcheck/wp-admin/edit.php" class="wp-first-item" tabindex="1">Posts</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/post-new.php" tabindex="1">Add New</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/edit-tags.php?taxonomy=category" tabindex="1">Categories</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/edit-tags.php?taxonomy=post_tag" tabindex="1">Post Tags</a></li></ul></div></li>
+	<li class="wp-has-submenu menu-top menu-icon-media" id="menu-media">
+	<div class="wp-menu-image"><a href="http://www.sologroup.com/mcheck/wp-admin/upload.php"><br></a></div><div class="wp-menu-toggle"><br></div><a href="http://www.sologroup.com/mcheck/wp-admin/upload.php" class="wp-has-submenu menu-top menu-icon-media" tabindex="1">Media</a>
+	<div class="wp-submenu"><div class="wp-submenu-head">Media</div><ul><li class="wp-first-item"><a href="http://www.sologroup.com/mcheck/wp-admin/upload.php" class="wp-first-item" tabindex="1">Library</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/media-new.php" tabindex="1">Add New</a></li></ul></div></li>
+	<li class="wp-has-submenu menu-top menu-icon-links" id="menu-links">
+	<div class="wp-menu-image"><a href="http://www.sologroup.com/mcheck/wp-admin/link-manager.php"><br></a></div><div class="wp-menu-toggle"><br></div><a href="http://www.sologroup.com/mcheck/wp-admin/link-manager.php" class="wp-has-submenu menu-top menu-icon-links" tabindex="1">Links</a>
+	<div class="wp-submenu"><div class="wp-submenu-head">Links</div><ul><li class="wp-first-item"><a href="http://www.sologroup.com/mcheck/wp-admin/link-manager.php" class="wp-first-item" tabindex="1">Links</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/link-add.php" tabindex="1">Add New</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/edit-link-categories.php" tabindex="1">Link Categories</a></li></ul></div></li>
+	<li class="wp-has-submenu menu-top menu-icon-page wp-menu-open" id="menu-pages">
+	<div class="wp-menu-image"><a href="http://www.sologroup.com/mcheck/wp-admin/edit.php?post_type=page"><br></a></div><div class="wp-menu-toggle"><br></div><a href="http://www.sologroup.com/mcheck/wp-admin/edit.php?post_type=page" class="wp-has-submenu menu-top menu-icon-page" tabindex="1">Pages</a>
+	<div class="wp-submenu"><div class="wp-submenu-head">Pages</div><ul><li class="wp-first-item"><a href="http://www.sologroup.com/mcheck/wp-admin/edit.php?post_type=page" class="wp-first-item" tabindex="1">Pages</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/post-new.php?post_type=page" tabindex="1">Add New</a></li></ul></div></li>
+	<li class="menu-top menu-icon-comments menu-top-last" id="menu-comments">
+	<div class="wp-menu-image"><a href="http://www.sologroup.com/mcheck/wp-admin/edit-comments.php"><br></a></div><div style="display: none;" class="wp-menu-toggle"><br></div><a href="http://www.sologroup.com/mcheck/wp-admin/edit-comments.php" class="menu-top menu-icon-comments menu-top-last" tabindex="1">Comments <span id="awaiting-mod" class="count-0"><span class="pending-count">0</span></span></a></li>
+	<li class="wp-menu-separator"><a class="separator" href="http://www.sologroup.com/mcheck/wp-admin/theme-editor.php?unfoldmenu=1"><br></a></li>
+	<li class="wp-has-submenu wp-has-current-submenu wp-menu-open menu-top menu-icon-appearance menu-top-first" id="menu-appearance">
+	<div class="wp-menu-image"><a href="http://www.sologroup.com/mcheck/wp-admin/themes.php"><br></a></div><div class="wp-menu-toggle"><br></div><a href="http://www.sologroup.com/mcheck/wp-admin/themes.php" class="wp-has-submenu wp-has-current-submenu wp-menu-open menu-top menu-icon-appearance menu-top-first" tabindex="1">Appearance</a>
+	<div class="wp-submenu"><div class="wp-submenu-head">Appearance</div><ul><li class="wp-first-item"><a href="http://www.sologroup.com/mcheck/wp-admin/themes.php" class="wp-first-item" tabindex="1">Themes</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/widgets.php" tabindex="1">Widgets</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/nav-menus.php" tabindex="1">Menus</a></li><li class="current"><a href="http://www.sologroup.com/mcheck/wp-admin/theme-editor.php" class="current" tabindex="1">Editor</a></li></ul></div></li>
+	<li class="wp-has-submenu menu-top menu-icon-plugins wp-menu-open" id="menu-plugins">
+	<div class="wp-menu-image"><a href="http://www.sologroup.com/mcheck/wp-admin/plugins.php"><br></a></div><div class="wp-menu-toggle"><br></div><a href="http://www.sologroup.com/mcheck/wp-admin/plugins.php" class="wp-has-submenu menu-top menu-icon-plugins" tabindex="1">Plugins <span class="update-plugins count-0"><span class="plugin-count">0</span></span></a>
+	<div class="wp-submenu"><div class="wp-submenu-head">Plugins <span class="update-plugins count-0"><span class="plugin-count">0</span></span></div><ul><li class="wp-first-item"><a href="http://www.sologroup.com/mcheck/wp-admin/plugins.php" class="wp-first-item" tabindex="1">Plugins</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/plugin-install.php" tabindex="1">Add New</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/plugin-editor.php" tabindex="1">Editor</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/plugins.php?page=akismet-key-config" tabindex="1">Akismet Configuration</a></li></ul></div></li>
+	<li class="wp-has-submenu menu-top menu-icon-users wp-menu-open" id="menu-users">
+	<div class="wp-menu-image"><a href="http://www.sologroup.com/mcheck/wp-admin/users.php"><br></a></div><div class="wp-menu-toggle"><br></div><a href="http://www.sologroup.com/mcheck/wp-admin/users.php" class="wp-has-submenu menu-top menu-icon-users" tabindex="1">Users</a>
+	<div class="wp-submenu"><div class="wp-submenu-head">Users</div><ul><li class="wp-first-item"><a href="http://www.sologroup.com/mcheck/wp-admin/users.php" class="wp-first-item" tabindex="1">Users</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/user-new.php" tabindex="1">Add New</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/profile.php" tabindex="1">Your Profile</a></li></ul></div></li>
+	<li class="wp-has-submenu menu-top menu-icon-tools wp-menu-open" id="menu-tools">
+	<div class="wp-menu-image"><a href="http://www.sologroup.com/mcheck/wp-admin/tools.php"><br></a></div><div class="wp-menu-toggle"><br></div><a href="http://www.sologroup.com/mcheck/wp-admin/tools.php" class="wp-has-submenu menu-top menu-icon-tools" tabindex="1">Tools</a>
+	<div class="wp-submenu"><div class="wp-submenu-head">Tools</div><ul><li class="wp-first-item"><a href="http://www.sologroup.com/mcheck/wp-admin/tools.php" class="wp-first-item" tabindex="1">Tools</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/import.php" tabindex="1">Import</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/export.php" tabindex="1">Export</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/ms-delete-site.php" tabindex="1">Delete Site</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/network.php" tabindex="1">Network</a></li></ul></div></li>
+	<li class="wp-has-submenu menu-top menu-icon-settings menu-top-last" id="menu-settings">
+	<div class="wp-menu-image"><a href="http://www.sologroup.com/mcheck/wp-admin/options-general.php"><br></a></div><div class="wp-menu-toggle"><br></div><a href="http://www.sologroup.com/mcheck/wp-admin/options-general.php" class="wp-has-submenu menu-top menu-icon-settings menu-top-last" tabindex="1">Settings</a>
+	<div class="wp-submenu"><div class="wp-submenu-head">Settings</div><ul><li class="wp-first-item"><a href="http://www.sologroup.com/mcheck/wp-admin/options-general.php" class="wp-first-item" tabindex="1">General</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/options-writing.php" tabindex="1">Writing</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/options-reading.php" tabindex="1">Reading</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/options-discussion.php" tabindex="1">Discussion</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/options-media.php" tabindex="1">Media</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/options-privacy.php" tabindex="1">Privacy</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/options-permalink.php" tabindex="1">Permalinks</a></li><li><a href="http://www.sologroup.com/mcheck/wp-admin/options-general.php?page=wp_declutter_settings" tabindex="1">Declutter Wordpress</a></li></ul></div></li>
+	<li class="wp-menu-separator-last"><a class="separator" href="http://www.sologroup.com/mcheck/wp-admin/theme-editor.php?unfoldmenu=1"><br></a></li>
+	<li class="menu-top toplevel_page_sf-options menu-top-first menu-top-last" id="toplevel_page_sf-options">
+	<div class="wp-menu-image"><a href="http://www.sologroup.com/mcheck/wp-admin/admin.php?page=sf-options"><img src="theme-editor.php_files/generic.png" alt=""></a></div><div style="display: none;" class="wp-menu-toggle"><br></div><a href="http://www.sologroup.com/mcheck/wp-admin/admin.php?page=sf-options" class="menu-top toplevel_page_sf-options menu-top-first menu-top-last" tabindex="1">Theme Options</a></li></ul>
+
+<div id="wpbody-content">
+<div id="screen-meta">
+	<div id="contextual-help-wrap" class="hidden">
+	<div class="metabox-prefs"><p>You can use the Theme Editor to edit the individual CSS and PHP files which make up your theme.</p><p>Begin
+ by choosing a theme to edit from the dropdown menu and clicking Select.
+ A list then appears of all the template files. Clicking once on any 
+file name causes the file to appear in the large Editor box.</p><p>For 
+PHP files, you can use the Documentation dropdown to select from 
+functions recognized in that file. Lookup takes you to a web page with 
+reference material about that particular function.</p><p>After typing in your edits, click Update File.</p><p><strong>Advice:</strong> think very carefully about your site crashing if you are live-editing the theme currently in use.</p><p>Upgrading to a newer version of the same theme will override changes made here. To avoid this, consider creating a <a href="http://codex.wordpress.org/Child_Themes" target="_blank">child theme</a> instead.</p><p><strong>For more information:</strong></p><p><a href="http://codex.wordpress.org/Theme_Development" target="_blank">Documentation on Theme Development</a></p><p><a href="http://codex.wordpress.org/Using_Themes" target="_blank">Documentation on Using Themes</a></p><p><a href="http://codex.wordpress.org/Editing_Files" target="_blank">Documentation on Editing Files</a></p><p><a href="http://codex.wordpress.org/Template_Tags" target="_blank">Documentation on Template Tags</a></p><p><a href="http://wordpress.org/support/" target="_blank">Support Forums</a></p></div>
+	</div>
+
+<div id="screen-meta-links">
+<div id="contextual-help-link-wrap" class="hide-if-no-js screen-meta-toggle">
+<a href="#contextual-help" id="contextual-help-link" class="show-settings">Help</a>
+</div>
+</div>
+</div>
+ 
+<div class="wrap">
+	<div id="icon-themes" class="icon32"><br></div>
+<h2>Edit Themes</h2><div id="message" class="updated"><p>File edited successfully.</p></div>
+
+<div class="fileedit-sub">
+<div class="alignleft">
+<big><strong>Footer</strong> (footer.php)</big>
+</div>
+<div class="alignright">
+	<form action="theme-editor.php" method="post">
+		<strong><label for="theme">Select theme to edit: </label></strong>
+		<select name="theme" id="theme">
+
+	<option value="SimpleBlog">SimpleBlog</option>
+	<option value="BeBack Theme">BeBack Theme</option>
+	<option value="Ice Breaker">Ice Breaker</option>
+	<option value="LaunchPad">LaunchPad</option>
+	<option value="Maparaan">Maparaan</option>
+	<option value="Obscorp">Obscorp</option>
+	<option value="sgi-static">sgi-static</option>
+	<option value="SimpleFolio" selected="selected">SimpleFolio</option>
+	<option value="Twenty Ten">Twenty Ten</option>		</select>
+		<input name="Submit" value="Select" class="button" type="submit">
+	</form>
+</div>
+<br class="clear">
+</div>
+	<div id="templateside">
+
+	<h3>Templates</h3>
+	<ul>
+		<li><a href="http://www.sologroup.com/mcheck/wp-admin/theme-editor.php?file=/themes/simplefolio/404.php&amp;theme=SimpleFolio&amp;dir=theme">404 Template<br><span class="nonessential">(404.php)</span></a></li>
+		<li><a href="http://www.sologroup.com/mcheck/wp-admin/theme-editor.php?file=/themes/simplefolio/comments.php&amp;theme=SimpleFolio&amp;dir=theme">Comments<br><span class="nonessential">(comments.php)</span></a></li>
+		<li><a href="http://www.sologroup.com/mcheck/wp-admin/theme-editor.php?file=/themes/simplefolio/footer.php&amp;theme=SimpleFolio&amp;dir=theme"><span class="highlight">Footer<br><span class="nonessential">(footer.php)</span></span></a></li>
+		<li><a href="http://www.sologroup.com/mcheck/wp-admin/theme-editor.php?file=/themes/simplefolio/template-fullwidth.php&amp;theme=SimpleFolio&amp;dir=theme">Full Width Page Template<br><span class="nonessential">(template-fullwidth.php)</span></a></li>
+		<li><a href="http://www.sologroup.com/mcheck/wp-admin/theme-editor.php?file=/themes/simplefolio/header.php&amp;theme=SimpleFolio&amp;dir=theme">Header<br><span class="nonessential">(header.php)</span></a></li>
+		<li><a href="http://www.sologroup.com/mcheck/wp-admin/theme-editor.php?file=/themes/simplefolio/template-home.php&amp;theme=SimpleFolio&amp;dir=theme">Home Page Template<br><span class="nonessential">(template-home.php)</span></a></li>
+		<li><a href="http://www.sologroup.com/mcheck/wp-admin/theme-editor.php?file=/themes/simplefolio/admin/index.php&amp;theme=SimpleFolio&amp;dir=theme">Main Index Template<br><span class="nonessential">(index.php)</span></a></li>
+		<li><a href="http://www.sologroup.com/mcheck/wp-admin/theme-editor.php?file=/themes/simplefolio/page.php&amp;theme=SimpleFolio&amp;dir=theme">Page Template<br><span class="nonessential">(page.php)</span></a></li>
+		<li><a href="http://www.sologroup.com/mcheck/wp-admin/theme-editor.php?file=/themes/simplefolio/template-portfolio.php&amp;theme=SimpleFolio&amp;dir=theme">Portfolio Page Template<br><span class="nonessential">(template-portfolio.php)</span></a></li>
+		<li><a href="http://www.sologroup.com/mcheck/wp-admin/theme-editor.php?file=/themes/simplefolio/template-redirect.php&amp;theme=SimpleFolio&amp;dir=theme">Redirect Page Template<br><span class="nonessential">(template-redirect.php)</span></a></li>
+		<li><a href="http://www.sologroup.com/mcheck/wp-admin/theme-editor.php?file=/themes/simplefolio/searchform.php&amp;theme=SimpleFolio&amp;dir=theme">Search Form<br><span class="nonessential">(searchform.php)</span></a></li>
+		<li><a href="http://www.sologroup.com/mcheck/wp-admin/theme-editor.php?file=/themes/simplefolio/search.php&amp;theme=SimpleFolio&amp;dir=theme">Search Results<br><span class="nonessential">(search.php)</span></a></li>
+		<li><a href="http://www.sologroup.com/mcheck/wp-admin/theme-editor.php?file=/themes/simplefolio/sidebar.php&amp;theme=SimpleFolio&amp;dir=theme">Sidebar<br><span class="nonessential">(sidebar.php)</span></a></li>
+		<li><a href="http://www.sologroup.com/mcheck/wp-admin/theme-editor.php?file=/themes/simplefolio/single.php&amp;theme=SimpleFolio&amp;dir=theme">Single Post<br><span class="nonessential">(single.php)</span></a></li>
+		<li><a href="http://www.sologroup.com/mcheck/wp-admin/theme-editor.php?file=/themes/simplefolio/functions.php&amp;theme=SimpleFolio&amp;dir=theme">Theme Functions<br><span class="nonessential">(functions.php)</span></a></li>
+		<li><a href="http://www.sologroup.com/mcheck/wp-admin/theme-editor.php?file=/themes/simplefolio/page-error.php&amp;theme=SimpleFolio&amp;dir=theme">page-error.php<br><span class="nonessential">(page-error.php)</span></a></li>
+		<li><a href="http://www.sologroup.com/mcheck/wp-admin/theme-editor.php?file=/themes/simplefolio/template-portfolioitem.php&amp;theme=SimpleFolio&amp;dir=theme">template-portfolioitem.php<br><span class="nonessential">(template-portfolioitem.php)</span></a></li>
+	</ul>
+	<h3>Styles</h3>
+	<ul>
+		<li><a href="http://www.sologroup.com/mcheck/wp-admin/theme-editor.php?file=/themes/simplefolio/style.css&amp;theme=SimpleFolio&amp;dir=style">Stylesheet<br><span class="nonessential">(style.css)</span></a></li>
+		<li><a href="http://www.sologroup.com/mcheck/wp-admin/theme-editor.php?file=/themes/simplefolio/ie6.css&amp;theme=SimpleFolio&amp;dir=style">ie6.css<br><span class="nonessential">(ie6.css)</span></a></li>
+		<li><a href="http://www.sologroup.com/mcheck/wp-admin/theme-editor.php?file=/themes/simplefolio/reset.css&amp;theme=SimpleFolio&amp;dir=style">reset.css<br><span class="nonessential">(reset.css)</span></a></li>
+	</ul>
+</div>
+	<form name="template" id="template" action="theme-editor.php" method="post">
+	<input id="_wpnonce" name="_wpnonce" value="8d69175e6b" type="hidden"><input name="_wp_http_referer" value="/mcheck/wp-admin/theme-editor.php?file=/usr/local/www/www.sologroup.com/wp-content/themes/simplefolio/footer.php&amp;theme=SimpleFolio&amp;a=te&amp;scrollto=0" type="hidden">		 <div><textarea cols="70" rows="25" name="newcontent" id="newcontent" tabindex="1">			&lt;/div&gt;
+		&lt;/div&gt;
+		&lt;div id="footer"&gt;
+			&lt;div class="footernav"&gt;
+				&lt;ul&gt;
+					&lt;?php wp_list_pages('title_li=&amp;depth=1'); ?&gt;
+				&lt;/ul&gt;
+			&lt;/div&gt;
+			&lt;div class="copyright"&gt;
+				&amp;copy; &lt;?php date('Y'); ?&gt; &lt;?php bloginfo('name'); ?&gt;. All rights reserved.
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;script type="text/javascript"&gt; Cufon.now(); &lt;/script&gt;
+	
+	&lt;?php wp_footer(); ?&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</textarea>
+		 <input name="action" value="update" type="hidden">
+		 <input name="file" value="/usr/local/www/www.sologroup.com/wp-content/themes/simplefolio/footer.php" type="hidden">
+		 <input name="theme" value="SimpleFolio" type="hidden">
+		 <input name="scrollto" id="scrollto" value="0" type="hidden">
+		 </div>
+			<div id="documentation" class="hide-if-no-js">
+		<label for="docs-list">Documentation:</label>
+		<select name="docs-list" id="docs-list"><option selected="selected" value="">Function Name...</option><option value="bloginfo">bloginfo()</option><option value="date">date()</option><option value="wp_footer">wp_footer()</option><option value="wp_list_pages">wp_list_pages()</option></select>		<input class="button" value=" Lookup " onclick="if ( '' != jQuery('#docs-list').val() ) { window.open( 'http://api.wordpress.org/core/handbook/1.0/?function=' + escape( jQuery( '#docs-list' ).val() ) + '&amp;locale=en_US&amp;version=3.0.4&amp;redirect=true'); }" type="button">
+		</div>
+	
+		<div>
+			<p class="submit">
+<input name="submit" class="button-primary" value="Update File" tabindex="2" type="submit"></p>
+		</div>
+	</form>
+<br class="clear">
+</div>
+<script type="text/javascript">
+/* <![CDATA[ */
+jQuery(document).ready(function($){
+	$('#template').submit(function(){ $('#scrollto').val( $('#newcontent').scrollTop() ); });
+	$('#newcontent').scrollTop( $('#scrollto').val() );
+});
+/* ]]> */
+</script>
+
+<div class="clear"></div></div><!-- wpbody-content -->
+<div class="clear"></div></div><!-- wpbody -->
+<div class="clear"></div></div><!-- wpcontent -->
+</div><!-- wpwrap -->
+
+<div id="footer">
+<p id="footer-left" class="alignleft"><span id="footer-thankyou">Thank you for creating with <a href="http://wordpress.org/">WordPress</a>.</span> | <a href="http://codex.wordpress.org/">Documentation</a> | <a href="http://wordpress.org/support/forum/4">Feedback</a></p>
+<p id="footer-upgrade" class="alignright">Version 3.0.4</p>
+<div class="clear"></div>
+</div>
+<script type="text/javascript">
+/* <![CDATA[ */
+var commonL10n = {
+	warnDelete: "You are about to permanently delete the selected items.\n  \'Cancel\' to stop, \'OK\' to delete."
+};
+try{convertEntities(commonL10n);}catch(e){};
+/* ]]> */
+</script>
+<script type="text/javascript" src="theme-editor.php_files/load-scripts.js"></script>
+
+<script type="text/javascript">if(typeof wpOnload=='function')wpOnload();</script>
+</body></html>
